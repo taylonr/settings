@@ -1,0 +1,24 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 18,
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "html.format.enable": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.snippetSuggestions": "top",
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "Iconsolata, 'Courier New', monospace",
+    "editor.codeLens": true,
+    "jshint.enable": false,
+    "editor.wordWrap": "off",
+    "workbench.colorTheme": "FlatUI",
+    "workbench.iconTheme": "vscode-great-icons",
+    "vsicons.projectDetection.disableDetect": true,
+    "editor.minimap.enabled": true,
+    "terminal.integrated.shellArgs.osx": [
+        "-l"
+    ],
+    "terminal.integrated.fontSize": 14
+}
