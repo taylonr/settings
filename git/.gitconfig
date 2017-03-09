@@ -1,0 +1,22 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Nate Taylor
+	email = taylonr@gmail.com
+[alias]
+	br = branch
+	co = checkout
+	cob = checkout -b
+	ac = !git add -A && git commit -m
+	st = status
+	cleanup = !git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d
+[color]
+	ui = auto
+[merge]
+	tool = kdiff3
+[mergetool]
+	keepBackup = false
+[mergetool "kdiff3"]
+	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+[push]
+	default = simple
