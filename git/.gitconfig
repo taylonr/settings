@@ -4,11 +4,11 @@
 	name = Nate Taylor
 	email = taylonr@gmail.com
 [alias]
-	br = branch
+	b = branch
 	co = checkout
 	cob = checkout -b
 	ac = !git add -A && git commit -m
-	st = status
+	s = status
 	cleanup = !git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d
 [color]
 	ui = auto
